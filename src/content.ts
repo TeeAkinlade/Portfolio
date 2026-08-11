@@ -24,9 +24,9 @@ export const profile = {
 	location: "Lagos, Nigeria",
 	email: "taiye.akinlade1@gmail.com",
 	tagline:
-		"Frontend engineer with 3+ years of experience creating fast, modern, and delivering hight quality digital products.",
+		"Frontend engineer with 3+ years experience of creating fast, modern, and delivering high quality digital products.",
 	about: [
-		"I am a Frontend engineer with over 3 years of experience building and shipping responsive web applications for startups and fast-growing platforms. Focused on writing clean, reusable component architectures, optimizing Core Web Vitals, and bridging the gap between complex UI designs and high-performance code. Experienced working inside cross-functional agile teams and breaking down complex technical goals into practical development steps. ",
+		"I am a Frontend engineer with over 3 years experience of building and shipping responsive web applications for startups and fast-growing platforms. Focused on writing clean, reusable component architectures, optimizing Core Web Vitals, and bridging the gap between complex UI designs and high-performance code. Experienced working inside cross-functional agile teams and breaking down complex technical goals into practical development steps. ",
 	],
 };
 
@@ -127,7 +127,7 @@ export const experience: Experience[] = [
 		company: "SpringBall Technology",
 		period: "2022 — 2023",
 		summary:
-			"Maintained and built 10+ responsive webpages using HTML, CSS, JavaScript, for both company and clients. Collaborated with the design team to implement UI/UX designs and ensure a seamless user experience.",
+			"Maintained and built 10+ responsive webpages, for both company and clients. Collaborated with the design team to implement UI/UX designs and ensure a seamless user experience.",
 	},
 ];
 

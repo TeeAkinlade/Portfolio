@@ -13,13 +13,15 @@ const Hero = () => {
 					<span className='text-faint'>{profile.location}</span>
 					<span className='text-faint'>GMT +1</span>
 				</div>
-
-				<div className='mt-10 flex items-start gap-6'>
-					<h1 className='flex-1 text-[clamp(2.5rem,9vw,6rem)] leading-[0.95] font-bold tracking-tight'>
-						<span className='block'>Frontend</span>
-						<span className='block text-muted'>Engineer.</span>
-						<span className='block text-accent'>
-							Detail-obsessed.
+				<div className='flex items-start gap-6 mt-16'>
+					<h1 className='flex-1 text-[clamp(2.5rem,9vw,5.5em)] leading-[0.95] font-bold tracking-tight'>
+          <h3 className="text-xl md:text-2xl! font-bold text-accent mb-4">Frontend Engineer</h3>
+						<span className='block'>
+							Building{" "}
+							<span className=' text-muted'>better</span>
+						</span>
+						<span className='block'>
+							digital experiences.
 						</span>
 					</h1>
 
@@ -27,7 +29,7 @@ const Hero = () => {
 						<img
 							src={heroImage}
 							alt={`${profile.name} portrait`}
-							className='w-36 h-36 md:w-70 md:h-70 rounded-full object-cover shadow-lg ring-2 ring-line'
+							className='w-36 h-36 md:w-70 md:h-70 rounded-full object-cover shadow-lg ring-2 ring-accent/30'
 						/>
 					</div>
 				</div>
